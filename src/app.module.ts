@@ -6,7 +6,7 @@ import { ApiExceptionFilter } from './common/api-exception.filter';
 
 @Module({
   imports: [],
-  controllers: [AppController],
+  controllers: [AppController , AppService],
   providers: [
     AppService,
     {
