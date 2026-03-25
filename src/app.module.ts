@@ -8,7 +8,7 @@ import { ProductService } from './products/product.service';
   imports: [],
   controllers: [AppController],
   providers: [
-    AppService,
+    AppService,ProductService,
     {
       provide: APP_FILTER,
       useClass: ApiExceptionFilter,
